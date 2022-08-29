@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #bbbbbb;
+    background: #333333;
+}
+a {
+    color: #08f;
+}
+.colorPicker {
+    display: inline-block;
+    margin: 0 10px;
+    margin: 0 auto;
+    /* margin-left: 500px; */
+    /* border-radius: 50px !important; */
+}
+/* #body-color { */
+    /* width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    margin: 0 auto;
+    background-color: red;
+    border: none;
+    border-radius: 50% !important;
+}
+#details-color {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    margin: 0 auto;
+    background-color: red;
+    border: none;
+    border-radius: 50% !important;
+}
+#glass-color{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    margin: 0 auto;
+    background-color: red;
+    border: none;
+    border-radius: 50% !important;
+} */
+
+#info {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    /* background: #000;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.soundbutton {
+	position: fixed;
+	bottom: 5vh;
+	right: 5vw;
+	cursor: pointer;
+	width: 24px;
+	transition: .25s ease;
+}
+.soundbutton.paused {
+	opacity: .25;
+}
